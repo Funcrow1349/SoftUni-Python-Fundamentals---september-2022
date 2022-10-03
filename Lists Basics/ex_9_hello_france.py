@@ -15,8 +15,6 @@ for item in collection_of_items:
         budget -= float(current_item[1])
         bought_items.append(item)
 for element in bought_items:
-    if budget >= 150:
-        break
     current_element = element.split("->")
     current_profit = float(current_element[1]) * 1.40
     total_profit += current_profit - float(current_element[1])
