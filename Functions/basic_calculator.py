@@ -40,22 +40,22 @@ while True:
     if choice == '1':
         n1 = float(input('Enter first number: '))
         n2 = float(input('Enter second number: '))
-        print('The sum is: ', add(n1, n2), '\n')
+        print('The result is: ', add(n1, n2), '\n')
 
     elif choice == '2':
         n1 = float(input('Enter first number: '))
         n2 = float(input('Enter second number: '))
-        print('The result of the subtract is: ', subtract(n1, n2), '\n')
+        print('The result is: ', subtract(n1, n2), '\n')
 
     elif choice == '3':
         n1 = float(input('Enter first number: '))
         n2 = float(input('Enter second number: '))
-        print('The sum is: ', multiply(n1, n2), '\n')
+        print('The result is: ', multiply(n1, n2), '\n')
 
     elif choice == '4':
         n1 = float(input('Enter first number: '))
         n2 = float(input('Enter second number: '))
-        print('The sum is: ', divide(n1, n2), '\n')
+        print('The result is: ', divide(n1, n2), '\n')
 
     else:
         print('Wrong choice!!!\n')
