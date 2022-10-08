@@ -1,14 +1,18 @@
-def add_and_subtract():
-    first_number = int(input())
-    second_number = int(input())
-    third_number = int(input())
-
-    def sum_numbers(first_number, second_number):
-        return first_number + second_number
-
-    def subtract(sum_numbers, third_number):
-        return sum_numbers - third_number
+def sum_numbers(num1, num2):
+    return num1 + num2
 
 
-print(subtract)
+def subtract(sum, num3):
+    return sum - num3
 
+
+def add_and_subtract(num1, num2, num3):
+    sum_of_first_and_second = sum_numbers(num1, num2)
+    result = subtract(sum_of_first_and_second, num3)
+    return result
+
+
+first_number = int(input())
+second_number = int(input())
+third_number = int(input())
+print(add_and_subtract(first_number, second_number, third_number))
